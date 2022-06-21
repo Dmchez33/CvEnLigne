@@ -2,14 +2,15 @@ body{
     background-color: white;
     margin: auto;
     width: 100%;
-    
+   
     font-family: Arial, Helvetica, sans-serif;
 }
 /* MISE FORME DU CONTENU PRINCIPAL*/
 .container{
     background-color: aquamarine;
     display: flex;
-    border: 2px solid black;
+    
+    
 }
 
 /* MISE FORME PREMIER CONTENU*/
@@ -70,6 +71,7 @@ progress{
 }
 .form p{
     padding-left: 8em;
+    margin-top: 0%;
 }
 .FormationCert ul, .Comp ul, .item2 .exp ul{
     padding-left: 8.5em;
