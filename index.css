@@ -1,0 +1,106 @@
+body{
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    text-align: justify;
+    font-family: Verdana, Tahoma, sans-serif
+}
+/* MISE FORME DU CONTENU PRINCIPAL*/
+.container{
+    background-color: aquamarine;
+    display: flex;
+    border: 2px solid black;
+}
+
+/* MISE FORME PREMIER CONTENU*/
+.item1{
+
+    background-color: #363c48;
+    color: white;
+
+    
+}
+.item1 *{
+    padding-left: .5em;
+    padding-right: .5em;
+}
+.item1 h1{
+    margin: 0px;
+}
+.item1 h2{
+    background-color: #252a30;
+}
+.item1 a{
+    text-decoration: none;
+    color: #ededed;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    
+}
+
+progress{
+    color: #ededed;
+}
+
+/* MISE FORME DU MISE SECOND CONTENU PRINCIPAL */
+.item2{
+    background-color: #ffffff;
+    padding: 1em;
+    
+}
+.item2 h3{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #ededed;
+    border-width: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.form h4, .item2 .exp h4{
+    display: inline;
+    padding-left: 5em;
+
+}
+.form p{
+    padding-left: 8em;
+}
+.FormationCert ul, .Comp ul, .item2 .exp ul{
+    padding-left: 8.5em;
+}
+.FormationCert ul li, .Comp ul li{
+    list-style: none;
+}
+.A{
+    display: flex;
+}
+.A2{
+    padding-left: 5em;
+    font-weight: bold;
+}
+
+/* ADAPTION DE DU CONTENU DES ECRANS DONT LA TAILLE EST INFERIEUR A 800px*/
+@media (max-width : 800px){
+    body{
+        background-color: white;
+        margin: auto;
+        width: 100%;
+    }
+    .container{
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border: 2px solid black;
+    }
+
+    
+}
+
+
