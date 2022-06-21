@@ -21,14 +21,19 @@ body{
    
 }
 .item1 *{
-    padding-left: .5em;
-    padding-right: .5em;
+    padding-left: .7em;
+    padding-right: .7em;
 }
 .item1 h1{
-    margin: 0px;
+    
+    letter-spacing: 2px;
+    
 }
 .item1 h2{
     background-color: #252a30;
+}
+.item1 h3{
+    margin-bottom: 3px;
 }
 .item1 a{
     text-decoration: none;
@@ -51,6 +56,7 @@ progress{
 .item2{
     background-color: #ffffff;
     padding: 1em;
+    padding-right: 2em;
     text-align: justify;
     
 }
